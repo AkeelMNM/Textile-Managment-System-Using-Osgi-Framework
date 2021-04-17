@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ProductionManagerConsumer
+Bundle-SymbolicName: com.txtms.osgi.ProductionManagerConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.txtms.osgi.productionmanagerconsumer.Activator
+Bundle-Vendor: TXTMS
+Bundle-RequiredExecutionEnvironment: JavaSE-13
+Automatic-Module-Name: com.txtms.osgi.ProductionManagerConsumer
+Import-Package: Model,
+ ProductionDatabase,
+ ProductionManagerService,
+ com.txtms.osgi.productserviceprovider,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
